@@ -38,7 +38,7 @@ public class MatchKeywords {
 						match += 1; // 計算 match 的關鍵字有幾個
 					}
 				}
-				if (match > 0) { // match 的關鍵字大於 1 才列為相關文章
+				if (match > 1) { // match 的關鍵字大於 1 才列為相關文章
 					if (contentTokenList.get(j).get(2).equals("5")) {
 						contentTokenList.get(j).set(2, Integer.toString(i));
 					} else {
